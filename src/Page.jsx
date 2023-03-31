@@ -1,9 +1,9 @@
 import React from "react";
-
-const Page1 = () => {
+import "./Page.css"
+const Page = () => {
   return (
     <div>
-      <section>
+      <section className="page">
         <img src="/model3.jpg" className="img1" alt="img1" />
         <div className="upper1">
           <b>Model 3</b>
@@ -60,10 +60,12 @@ const Page1 = () => {
           <br />
           <code></code>
         </div>
-        
+        <div className="lower6">
+          <button className="first">Custom Order</button>
+        </div>
       </section>
     </div>
   );
 };
 
-export default Page1;
+export default Page;

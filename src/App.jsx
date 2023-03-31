@@ -1,12 +1,14 @@
 import NavbarSection from "./NavbarSection";
 import "./App.css";
-import Page1 from "./Page1";
+import Page from "./Page";
+import Footer from "./Footer";
 function App() {
   return (
     <>
       {/*  */}
       <NavbarSection />
-      <Page1 />
+      <Page />
+      <Footer/>
     </>
   );
 }
