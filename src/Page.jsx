@@ -1,10 +1,15 @@
 import React from "react";
-import "./Page.css"
+import "./Page.css";
+// AOS.init({
+//   offset: 300,
+// });
 const Page = () => {
   return (
     <div>
       <section className="page">
-        <img src="/model3.jpg" className="img1" alt="img1" />
+        <div className="content1" data-aos="slide-left">
+          <img src="/model3.jpg" className="img1" alt="img1" />
+        </div>
         <div className="upper1">
           <b>Model 3</b>
           <br />
@@ -14,7 +19,10 @@ const Page = () => {
           <button className="first">View Inventory</button>
           <button className="second">Custom Order</button>
         </div>
-        <img src="/modelY.jpg" className="img2" alt="img1" />
+        <div className="content2" data-aos="slide-right">
+          <img src="/modelY.jpg" className="img2" alt="img1" />
+        </div>
+
         <div className="upper2">
           <b>Model Y</b>
           <br />
@@ -24,17 +32,23 @@ const Page = () => {
           <button className="first">View Inventory</button>
           <button className="second">Custom Order</button>
         </div>
-        <img src="/modelS.jpg" className="img3" alt="img1" />
-        <div className="upper3">
-          <b>Model S</b>
-          <br />
-          <code>Schedule a Demo Drive</code>
+        <div className="content3" data-aos="slide-left">
+          <img src="/modelS.jpg" className="img3" alt="img1" />
         </div>
-        <div className="lower3">
-          <button className="first">View Inventory</button>
-          <button className="second">Custom Order</button>
+        <div>
+          <div className="upper3">
+            <b>Model S</b>
+            <br />
+            <code>Schedule a Demo Drive</code>
+          </div>
+          <div className="lower3">
+            <button className="first">View Inventory</button>
+            <button className="second">Custom Order</button>
+          </div>
         </div>
-        <img src="/modelX.jpg" className="img4" alt="img1" />
+        <div className="content4" data-aos="slide-right">
+          <img src="/modelX.jpg" className="img4" alt="img1" />
+        </div>
         <div className="upper4">
           <b>Model X</b>
           <br />
@@ -44,7 +58,9 @@ const Page = () => {
           <button className="first">View Inventory</button>
           <button className="second">Custom Order</button>
         </div>
-        <img src="/solarPanels.jpg" className="img4" alt="img1" />
+        <div className="content5" data-aos="slide-left">
+          <img src="/solarPanels.jpg" className="img4" alt="img1" />
+        </div>
         <div className="upper5">
           <b>Solar Panels</b>
           <br />
@@ -54,7 +70,9 @@ const Page = () => {
           <button className="first">View Inventory</button>
           <button className="second">Custom Order</button>
         </div>
-        <img src="/accessesories.jpg" className="img4" alt="img1" />
+        <div className="content6">
+          <img src="/accessesories.jpg" className="img6" alt="img1" />
+        </div>
         <div className="upper6">
           <b>accessesories</b>
           <br />

@@ -1,127 +1,34 @@
-.bg-hover:hover {
-  background: #e2e2e2;
-  border-radius: 3px;
-}
-body {
-  overflow-x: hidden;
-}
-.Nav_container {
-  background: #fbc4c400;
-}
-.bg-hover {
-  margin-right: 2px;
-  margin-left: 2px;
-  font-style: bold;
-}
-.img1 {
-  width: 100vw;
-  height: 150vh;
-  margin-top: -18rem;
-  margin-bottom: -15rem;
-  object-fit: contain;
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+  display: block;
   overflow: hidden;
-}
-
-.img2 {
   width: 100vw;
-  height: 150vh;
-  margin-bottom: -10rem;
-  top: -10vh;
-  position: relative;
-  overflow: hidden;
+  height: 100vh;
 }
-.img3 {
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+  margin-top: -12rem;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
   width: 100vw;
-  height: 150vh;
-  margin-bottom: -15rem;
-  overflow: hidden;
-  top: -20vh;
-  position: relative;
+  scale: 1.2;
+  margin-top: -12rem;
+  z-index: -10;
 }
-.img4 {
-  width: 100vw;
-  height: 150vh;
-  margin-top: -15rem;
-  overflow: hidden;
-}
-.upper1 {
-  font-size: 2rem;
-  width: 60vw;
-  margin-left: 20vw;
-  top: -80vh;
-  position: relative;
-  color: black;
-  text-align: center;
-}
-.upper2 {
-  font-size: 2rem;
-  width: 60vw;
-  margin-left: 20vw;
-  top: -100vh;
-  position: relative;
-  color: black;
-  text-align: center;
-}
-
-.upper3 {
-  font-size: 2rem;
-  width: 60vw;
-  margin-left: 20vw;
-  top: -100vh;
-  position: relative;
-  color: black;
-  text-align: center;
-}
-.upper4 {
-  font-size: 2rem;
-  width: 60vw;
-  margin-left: 20vw;
-  top: -120vh;
-  position: relative;
-  color: black;
-  text-align: center;
-}
-.upper5 {
-  font-size: 2rem;
-  width: 60vw;
-  margin-left: 20vw;
-  top: -110vh;
-  position: relative;
-  color: black;
-  text-align: center;
-}
-.upper6 {
-  font-size: 2rem;
-  width: 60vw;
-  margin-left: 20vw;
-  top: -110vh;
-  position: relative;
-  color: black;
-  text-align: center;
-}
-.upper1 b,
-.upper2 b,
-.upper3 b,
-.upper4 b,
-.upper5 b,
-.upper6 b {
-  font-size: 4rem;
-}
-.upper1 code,
-.upper2 code,
-.upper3 code,
-.upper4 code,
-.upper5 code,
-.upper6 code {
-  color: black;
-}
-.lower1 {
-  position: relative;
-  top: -40vh;
-  display: flex;
-  justify-content: space-around;
-  width: 40vw;
-  margin-left: 30vw;
+.img6 {
+  margin-top: -29rem;
 }
 
 .first {
@@ -142,9 +49,25 @@ body {
   border: 0px;
   border-radius: 0.3rem;
 }
+.upper1 b,
+.upper2 b,
+.upper3 b,
+.upper4 b,
+.upper5 b,
+.upper6 b {
+  font-size: 4rem;
+}
+.upper1 code,
+.upper2 code,
+.upper3 code,
+.upper4 code,
+.upper5 code,
+.upper6 code {
+  color: black;
+}
 .lower2 {
   position: relative;
-  top: -50vh;
+  top: -40vh;
   display: flex;
   justify-content: space-around;
   width: 40vw;
@@ -160,7 +83,7 @@ body {
 }
 .lower4 {
   position: relative;
-  top: -60vh;
+  top: -40vh;
   display: flex;
   justify-content: space-around;
   width: 40vw;
@@ -168,13 +91,75 @@ body {
 }
 .lower5 {
   position: relative;
-  top: -60vh;
+  top: -40vh;
   display: flex;
   justify-content: space-around;
   width: 40vw;
   margin-left: 30vw;
 }
 .lower6 {
+  position: relative;
+  top: -40vh;
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  margin-left: 30vw;
+}
+.upper1 {
+  font-size: 2rem;
+  width: 60vw;
+  margin-left: 20vw;
+  top: -90vh;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.upper2 {
+  font-size: 2rem;
+  width: 60vw;
+  margin-left: 20vw;
+  top: -80vh;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.upper3 {
+  font-size: 2rem;
+  width: 60vw;
+  margin-left: 20vw;
+  top: -90vh;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.upper4 {
+  font-size: 2rem;
+  width: 60vw;
+  margin-left: 20vw;
+  top: -90vh;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.upper5 {
+  font-size: 2rem;
+  width: 60vw;
+  margin-left: 20vw;
+  top: -90vh;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.upper6 {
+  font-size: 2rem;
+  width: 60vw;
+  margin-left: 20vw;
+  top: -100vh;
+  position: relative;
+  color: black;
+  text-align: center;
+}
+.lower1 {
   position: relative;
   top: -40vh;
   display: flex;

@@ -3,10 +3,17 @@ import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 const NavbarSection = () => {
+  let width = window.innerWidth;
+  console.log(width);
   return (
     <div>
-      <section >
-        <Navbar bg="light" className="Nav_container" variant="light" sticky="top">
+      <section>
+        <Navbar
+          bg="light"
+          className="Nav_container"
+          variant="light"
+          sticky="top"
+        >
           <Container>
             <Navbar.Brand href="#home">Tesla</Navbar.Brand>
             <Nav className="justify-content-center">
