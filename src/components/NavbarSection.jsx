@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 const NavbarSection = () => {
-  let width = window.innerWidth;
-  console.log(width);
+  
+  useEffect(()=>{
+
+  },[]);
   return (
     <div>
       <section>

@@ -1,8 +1,8 @@
 import React from "react";
-import "./Page.css";
-// AOS.init({
-//   offset: 300,
-// });
+import "../Page.css";
+AOS.init({
+  offset: 300,
+});
 const Page = () => {
   return (
     <div>
